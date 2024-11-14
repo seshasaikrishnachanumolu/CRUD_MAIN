@@ -27,7 +27,7 @@ function App() {
         </main>
 
         <footer className="footer">
-          &copy; 2024 - All rights reserved | Developed with ♥ by T Keerti Chandan
+          &copy; 2024 - All rights reserved | 
         </footer>
       </div>
     </Router>
