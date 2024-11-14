@@ -9,7 +9,7 @@ function StudentList() {
   const [grade, setGrade] = useState('');
   const [editingId, setEditingId] = useState(null);
 
-  const API_URL = "https://three3901-crudmvc-server.onrender.com/api/students";
+  const API_URL = "https://crud-main-0hff.onrender.com/api/students";
 
   useEffect(() => {
     fetchStudents();

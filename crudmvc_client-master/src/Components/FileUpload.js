@@ -37,7 +37,7 @@ function FileUpload() {
     formData.append('file', file);
 
     try {
-        const response = await axios.post('https://three3901-crudmvc-server.onrender.com/api/files/bulk-upload', formData, {
+        const response = await axios.post('https://crud-main-0hff.onrender.com/api/files/bulk-upload', formData, {
             headers: { 'Content-Type': 'multipart/form-data' },
           });
           

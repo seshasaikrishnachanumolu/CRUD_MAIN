@@ -10,7 +10,7 @@ function FacultyList() {
   const [editingId, setEditingId] = useState(null);
   const [error, setError] = useState(null);
 
-  const API_URL = "https://three3901-crudmvc-server.onrender.com/api/faculty";
+  const API_URL = "https://crud-main-0hff.onrender.com/api/faculty";
 
   // Configure axios defaults for CORS
   axios.defaults.withCredentials = true;
